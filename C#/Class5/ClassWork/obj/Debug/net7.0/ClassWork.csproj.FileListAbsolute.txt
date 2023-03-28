@@ -1,0 +1,15 @@
+E:\Cybersec\CSharp\Class5\ClassWork\obj\Debug\net7.0\ClassWork.csproj.AssemblyReference.cache
+E:\Cybersec\CSharp\Class5\ClassWork\obj\Debug\net7.0\ClassWork.GeneratedMSBuildEditorConfig.editorconfig
+E:\Cybersec\CSharp\Class5\ClassWork\obj\Debug\net7.0\ClassWork.AssemblyInfoInputs.cache
+E:\Cybersec\CSharp\Class5\ClassWork\obj\Debug\net7.0\ClassWork.AssemblyInfo.cs
+E:\Cybersec\CSharp\Class5\ClassWork\obj\Debug\net7.0\ClassWork.csproj.CoreCompileInputs.cache
+E:\Cybersec\CSharp\Class5\ClassWork\bin\Debug\net7.0\ClassWork.exe
+E:\Cybersec\CSharp\Class5\ClassWork\bin\Debug\net7.0\ClassWork.deps.json
+E:\Cybersec\CSharp\Class5\ClassWork\bin\Debug\net7.0\ClassWork.runtimeconfig.json
+E:\Cybersec\CSharp\Class5\ClassWork\bin\Debug\net7.0\ClassWork.dll
+E:\Cybersec\CSharp\Class5\ClassWork\bin\Debug\net7.0\ClassWork.pdb
+E:\Cybersec\CSharp\Class5\ClassWork\obj\Debug\net7.0\ClassWork.dll
+E:\Cybersec\CSharp\Class5\ClassWork\obj\Debug\net7.0\refint\ClassWork.dll
+E:\Cybersec\CSharp\Class5\ClassWork\obj\Debug\net7.0\ClassWork.pdb
+E:\Cybersec\CSharp\Class5\ClassWork\obj\Debug\net7.0\ClassWork.genruntimeconfig.cache
+E:\Cybersec\CSharp\Class5\ClassWork\obj\Debug\net7.0\ref\ClassWork.dll

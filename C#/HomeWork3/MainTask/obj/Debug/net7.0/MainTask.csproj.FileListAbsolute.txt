@@ -1,0 +1,15 @@
+E:\Cybersec\CSharp\HomeWork3\MainTask\bin\Debug\net7.0\MainTask.exe
+E:\Cybersec\CSharp\HomeWork3\MainTask\bin\Debug\net7.0\MainTask.deps.json
+E:\Cybersec\CSharp\HomeWork3\MainTask\bin\Debug\net7.0\MainTask.runtimeconfig.json
+E:\Cybersec\CSharp\HomeWork3\MainTask\bin\Debug\net7.0\MainTask.dll
+E:\Cybersec\CSharp\HomeWork3\MainTask\bin\Debug\net7.0\MainTask.pdb
+E:\Cybersec\CSharp\HomeWork3\MainTask\obj\Debug\net7.0\MainTask.csproj.AssemblyReference.cache
+E:\Cybersec\CSharp\HomeWork3\MainTask\obj\Debug\net7.0\MainTask.GeneratedMSBuildEditorConfig.editorconfig
+E:\Cybersec\CSharp\HomeWork3\MainTask\obj\Debug\net7.0\MainTask.AssemblyInfoInputs.cache
+E:\Cybersec\CSharp\HomeWork3\MainTask\obj\Debug\net7.0\MainTask.AssemblyInfo.cs
+E:\Cybersec\CSharp\HomeWork3\MainTask\obj\Debug\net7.0\MainTask.csproj.CoreCompileInputs.cache
+E:\Cybersec\CSharp\HomeWork3\MainTask\obj\Debug\net7.0\MainTask.dll
+E:\Cybersec\CSharp\HomeWork3\MainTask\obj\Debug\net7.0\refint\MainTask.dll
+E:\Cybersec\CSharp\HomeWork3\MainTask\obj\Debug\net7.0\MainTask.pdb
+E:\Cybersec\CSharp\HomeWork3\MainTask\obj\Debug\net7.0\MainTask.genruntimeconfig.cache
+E:\Cybersec\CSharp\HomeWork3\MainTask\obj\Debug\net7.0\ref\MainTask.dll

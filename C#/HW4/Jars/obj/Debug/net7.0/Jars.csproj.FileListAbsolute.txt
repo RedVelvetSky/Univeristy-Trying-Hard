@@ -1,0 +1,15 @@
+E:\Cybersec\CSharp\HW4\Jars\obj\Debug\net7.0\Jars.csproj.AssemblyReference.cache
+E:\Cybersec\CSharp\HW4\Jars\obj\Debug\net7.0\Jars.GeneratedMSBuildEditorConfig.editorconfig
+E:\Cybersec\CSharp\HW4\Jars\obj\Debug\net7.0\Jars.AssemblyInfoInputs.cache
+E:\Cybersec\CSharp\HW4\Jars\obj\Debug\net7.0\Jars.AssemblyInfo.cs
+E:\Cybersec\CSharp\HW4\Jars\obj\Debug\net7.0\Jars.csproj.CoreCompileInputs.cache
+E:\Cybersec\CSharp\HW4\Jars\bin\Debug\net7.0\Jars.exe
+E:\Cybersec\CSharp\HW4\Jars\bin\Debug\net7.0\Jars.deps.json
+E:\Cybersec\CSharp\HW4\Jars\bin\Debug\net7.0\Jars.runtimeconfig.json
+E:\Cybersec\CSharp\HW4\Jars\bin\Debug\net7.0\Jars.dll
+E:\Cybersec\CSharp\HW4\Jars\bin\Debug\net7.0\Jars.pdb
+E:\Cybersec\CSharp\HW4\Jars\obj\Debug\net7.0\Jars.dll
+E:\Cybersec\CSharp\HW4\Jars\obj\Debug\net7.0\refint\Jars.dll
+E:\Cybersec\CSharp\HW4\Jars\obj\Debug\net7.0\Jars.pdb
+E:\Cybersec\CSharp\HW4\Jars\obj\Debug\net7.0\Jars.genruntimeconfig.cache
+E:\Cybersec\CSharp\HW4\Jars\obj\Debug\net7.0\ref\Jars.dll

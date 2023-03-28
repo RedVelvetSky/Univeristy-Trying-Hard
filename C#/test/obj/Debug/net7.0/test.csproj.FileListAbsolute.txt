@@ -1,0 +1,15 @@
+E:\Cybersec\CSharp\test\bin\Debug\net7.0\test.exe
+E:\Cybersec\CSharp\test\bin\Debug\net7.0\test.deps.json
+E:\Cybersec\CSharp\test\bin\Debug\net7.0\test.runtimeconfig.json
+E:\Cybersec\CSharp\test\bin\Debug\net7.0\test.dll
+E:\Cybersec\CSharp\test\bin\Debug\net7.0\test.pdb
+E:\Cybersec\CSharp\test\obj\Debug\net7.0\test.csproj.AssemblyReference.cache
+E:\Cybersec\CSharp\test\obj\Debug\net7.0\test.GeneratedMSBuildEditorConfig.editorconfig
+E:\Cybersec\CSharp\test\obj\Debug\net7.0\test.AssemblyInfoInputs.cache
+E:\Cybersec\CSharp\test\obj\Debug\net7.0\test.AssemblyInfo.cs
+E:\Cybersec\CSharp\test\obj\Debug\net7.0\test.csproj.CoreCompileInputs.cache
+E:\Cybersec\CSharp\test\obj\Debug\net7.0\test.dll
+E:\Cybersec\CSharp\test\obj\Debug\net7.0\refint\test.dll
+E:\Cybersec\CSharp\test\obj\Debug\net7.0\test.pdb
+E:\Cybersec\CSharp\test\obj\Debug\net7.0\test.genruntimeconfig.cache
+E:\Cybersec\CSharp\test\obj\Debug\net7.0\ref\test.dll

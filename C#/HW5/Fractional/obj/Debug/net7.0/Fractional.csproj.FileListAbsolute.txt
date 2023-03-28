@@ -1,0 +1,15 @@
+E:\Cybersec\CSharp\HW5\Fractional\bin\Debug\net7.0\Fractional.exe
+E:\Cybersec\CSharp\HW5\Fractional\bin\Debug\net7.0\Fractional.deps.json
+E:\Cybersec\CSharp\HW5\Fractional\bin\Debug\net7.0\Fractional.runtimeconfig.json
+E:\Cybersec\CSharp\HW5\Fractional\bin\Debug\net7.0\Fractional.dll
+E:\Cybersec\CSharp\HW5\Fractional\bin\Debug\net7.0\Fractional.pdb
+E:\Cybersec\CSharp\HW5\Fractional\obj\Debug\net7.0\Fractional.csproj.AssemblyReference.cache
+E:\Cybersec\CSharp\HW5\Fractional\obj\Debug\net7.0\Fractional.GeneratedMSBuildEditorConfig.editorconfig
+E:\Cybersec\CSharp\HW5\Fractional\obj\Debug\net7.0\Fractional.AssemblyInfoInputs.cache
+E:\Cybersec\CSharp\HW5\Fractional\obj\Debug\net7.0\Fractional.AssemblyInfo.cs
+E:\Cybersec\CSharp\HW5\Fractional\obj\Debug\net7.0\Fractional.csproj.CoreCompileInputs.cache
+E:\Cybersec\CSharp\HW5\Fractional\obj\Debug\net7.0\Fractional.dll
+E:\Cybersec\CSharp\HW5\Fractional\obj\Debug\net7.0\refint\Fractional.dll
+E:\Cybersec\CSharp\HW5\Fractional\obj\Debug\net7.0\Fractional.pdb
+E:\Cybersec\CSharp\HW5\Fractional\obj\Debug\net7.0\Fractional.genruntimeconfig.cache
+E:\Cybersec\CSharp\HW5\Fractional\obj\Debug\net7.0\ref\Fractional.dll
