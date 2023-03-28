@@ -1,0 +1,61 @@
+One approach to solve this problem is to iterate through the sequence, keeping track of the current sum of the numbers in the segment, and the overall sum of the entire sequence. At each step, check if the current sum of the segment is equal to the overall sum minus the current sum. If it is, return the indices and sum of the segment. If the current sum becomes greater than the overall sum minus the current sum, reset the current sum to the value of the next number in the sequence and update the starting index of the segment. If the end of the sequence is reached without finding a valid segment, return None.
+
+
+
+Короче, 
+1. Создаём массив из сумм префиксов (k-й элемент является суммой первых k элементов в инпуте).
+2. Для всех пар (начальный индекс : конечный индекс) мы можем посчитать значение вычитая сумму префикса в начальном индексе (начальный индекс в массиве из 1 шага) из суммы префикса в конечном индексе + 1.
+3. Сравниваем эту сумму с суммой элементов, не входящих в этот промежуток, которая представляет собой общую сумму за вычетом суммы промежутка: 
+     - Если они равны, возвращаем начальный и конечный индексы и сумму элементов в разделе.
+     - Если такой раздел не найден, вернуть None.
+
+Временная сложность - O (n^2), пространственная сложность — O (n), n — длина входной последовательности.
+ 
+1. Создаем массив из сумм префиксов (это означает, что k-тый элемет является суммой всех первых k элементов в массиве).
+2. Для всех пар префиксов вида (начальный индекс : конечный индекс), мы можем посчитать значение, путем вычитание начального префикса из суммы префикса в конечном индексе + 1. Таким образом мы находим все последовательные суммы в массиве.
+3. Сравниваем сумму префиксов с суммой элементов, не входящих в этот промежуток - то есть с общей суммой, за вычетом суммы промежутка и тогда у нас получается два случая:
+ - Они равны и мы возвращаем начальный и конечный индексы и сумму элементов.
+ - Если такая сумма (раздел) не найдены, то вернуть None.
+
+
+One approach to solve this problem is to iterate through the sequence, keeping track of the current sum of the numbers in the segment, and the overall sum of the entire sequence. At each step, check if the current sum of the segment is equal to the overall sum minus the current sum. If it is, return the indices and sum of the segment. If the current sum becomes greater than the overall sum minus the current sum, reset the current sum to the value of the next number in the sequence and update the starting index of the segment. If the end of the sequence is reached without finding a valid segment, return None.
+
+Также, можно решить проблему итерарируясь через последовательность и сохраняю текущую сумму чисел в сигменте и полную сумму последовательности. На каждом шаге проверяем равняется ли она общей сумме - текущая сумма. Если да, то возвращаем индексы, если же нет и она становится больше, то сбрасываем значения текущей суммы к значению следующего элемента в массиве и обновляем начальный индекс последовательности. Если итерация подошла к концу без нахождения какого валидного сегмента, то возаращаем None.
+
+
+
+
+
+
+
+
+
+
+def find_segment(arr):
+    overall_sum = sum(arr)
+    curr_sum = 0
+    start_index = 0
+    for i, num in enumerate(arr):
+        curr_sum += num
+        while curr_sum > overall_sum - curr_sum:
+            curr_sum -= arr[start_index]
+            start_index += 1
+        if curr_sum == overall_sum - curr_sum:
+            return (start_index, i, curr_sum)
+    return None
+
+In this example, the input sequence is represented by the list "arr", and the function "find_segment" returns a tuple of the form (start_index, end_index, sum) if a valid segment is found, and "None" otherwise. The overall sum of the sequence is calculated using the built-in "sum" function. The function iterates through the sequence using the "enumerate" function, which returns both the index and the value of each element in the list. The current sum of the segment and the starting index are initially set to 0. At each step, the current sum is updated with the value of the current number in the sequence, and the while loop checks if the current sum is greater than the overall sum minus the current sum. If it is, the while loop will remove the value of the number at the start_index from the current sum and increment the start_index. If the current sum is equal to the overall sum minus the current sum, the function returns the current start_index, end_index and curr_sum. If the end of the sequence is reached without finding a valid segment, the function returns None.
+
+
+
+
+Решить проблему итерарируясь через последовательность и сохраняю текущую сумму чисел в сигменте и полную сумму последовательности. На каждом шаге проверяем равняется ли она общей сумме - текущая сумма. Если да, то возвращаем индексы, если же нет и она становится больше, то сбрасываем значения текущей суммы к значению следующего элемента в массиве и обновляем начальный индекс последовательности. Если итерация подошла к концу без нахождения какого валидного сегмента, то возаращаем None.
+
+Кроме того можно пойти немного иначе:
+1. Создаем массив из сумм префиксов (это означает, что k-тый элемет является суммой всех первых k элементов в массиве).
+2. Для всех пар префиксов вида (начальный индекс : конечный индекс), мы можем посчитать значение, путем вычитание начального префикса из суммы префикса в конечном индексе + 1. Таким образом мы находим все последовательные суммы в массиве.
+3. Сравниваем сумму префиксов с суммой элементов, не входящих в этот промежуток - то есть с общей суммой, за вычетом суммы промежутка и тогда у нас получается два случая:
+ - Они равны и мы возвращаем начальный и конечный индексы и сумму элементов.
+ - Если такая сумма (раздел) не найдены, то вернуть None.
+
+Временная сложность этого алгоритма - O (n^2), пространственная сложность — O (n), где n — длина входной последовательности.

@@ -1,0 +1,25 @@
+class VrcholBinStromu:
+    """třída pro reprezentaci vrcholu binárního stromu""" 
+    def __init__(self, info = None, levy = None, pravy = None):
+        self.info = info      # číslo vrcholu
+        self.levy = levy      # levé dítě 
+        self.pravy = pravy    # pravé dítě
+
+def podstrom(koren : VrcholBinStromu, x : int):
+    """
+    koren : kořen zadaného binárního stromu
+    x     : celé čislo
+    vrátí : seznam čísel uložených ve všech vrcholech, které leží v podstromu s kořenem obsahujícím číslo x
+    """
+    if koren is None:
+        return []
+    elif koren.info == x:
+        return [koren.info] + podstrom(koren.levy, x) + podstrom(koren.pravy, x)
+    else:
+        return podstrom(koren.levy, x) + podstrom(koren.pravy, x)
+
+This function uses a recursive approach to traverse the binary tree starting from the given root node. It uses a depth-first search (DFS) strategy to explore the tree, visiting the left child, then the right child of each node.
+
+At each node, the function first checks if the current node is None (i.e. if it has reached a leaf node). If it is, it returns an empty list. If the current node's value equals to the given x, it returns a list with the value of current node, followed by the values of the left and right subtrees. If the value of current node is different from x, it continues traversing the tree, by calling the function recursively on the left and right children of the current node.
+
+In this way, the function collects all the values of the nodes in the subtree rooted at the node containing x. The returned list is the concatenation of the lists returned by the recursive calls.

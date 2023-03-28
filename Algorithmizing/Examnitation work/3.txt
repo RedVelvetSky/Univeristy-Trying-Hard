@@ -1,0 +1,50 @@
+The above procedure does not correctly implement the desired operation of removing an element with the given key value x from a binary search tree. The reason is that it does not maintain the binary search tree property, which is that for every vertex, all elements in the left subtree have values less than or equal to the value in the vertex, and all elements in the right subtree have values greater than the value in the vertex.
+
+By copying the value from vertex s to vertex v, the tree may no longer be ordered.
+Also, By removing a vertex, the tree structure may change, which may affect the subtrees of other vertices.
+
+A correct implementation would involve identifying the vertex to be removed and reordering the tree structure by promoting or demoting vertices from the subtrees as necessary to maintain the binary search tree property.
+
+-----
+
+This procedure doesn't implement the operation of removing an element with the given value from a tree correctly and that's why:
+ - the given implementation of operation doesn't maintain the BST property which states that for every vertex, its left child has to be smaller then its root and right child is bigger. Generally speaking, all elements in the left subtree have values less than or equal to the value in the vertex, and all elements in the right subtree have values greater than the value in the vertex.
+- When we copy the value from one vertex to another, our three may no longer be ordered and maintain BST property.
+- When we remove elements, the inner structure of the tree can be changed, elements and substrees in general can also be affected.
+I suppose, that if you want to correctly implement this iperation, you have to involve indetifying the vertex that will be removes and after that reordering the tree structure.
+
+
+-------------------------------------------------------
+
+f(n) = O(g(n)) <=> (def) 0 ≤ f(n) ≤ C1*g(n) => C1 ≥ f(n)/g(n)
+log2f(n) =? O(log2(g(n)))  0 ≤ log2f(n) ≤ C1* log2(g(n) => C2 ≥ log2(f(n))/log2(g(n))
+
+Now let’s try to prove, that the statement above (C2 ≥ log2(f(n))/log2(g(n)) is false. Let’s take f(n)=n and g(n) = n^2, so that f(n)=O(g(n) => n=O(n^2) is true and try to calculate C2 with these values. 
+
+C2 ≥ log2(n)/log2(n^2)=> C2 ≥ ½ which is also true, but we need to find such two functions, that the meaning of C2 will be false. 
+So let’s try f(n)=1 and g(n) = n. Once again, f(n)=O(g(n) => 1= O(n). 
+Then C2 will be: C2 ≥ log2(1)/log2(n)=> C2 ≥ 0, which is also true. And the last set I want to try to prove, that C2 is false on, is f(n)=n and g(n) = 2n. In this case f(n)=O(g(n) => n= O(2n). 
+C2: C2 ≥ log2(n)/log2(2n) and it is not reducible in this case, and equation log2f(n) = O(log2(g(n))) is also true.
+
+
+(a) The statement is not true. To prove this, we can construct a counterexample where f(n) = n^2 and g(n) = n. In this case, f = O(g) because n^2 is upper bounded by cn for some constant c. However, log2(f(n)) = 2log2(n) and log2(g(n)) = log2(n), and 2*log2(n) is not upper bounded by log2(n), so log2(f) is not O(log2(g)).
+
+Task 3
+a) f(n)=O(g(n) <=> (def) 0 ≤ f(n) ≤ C1*g(n) => C1 ≥ f(n)/g(n)
+
+log2f(n) =? O(log2(g(n)))  0 ≤ log2f(n) ≤ C1* log2(g(n) => C2 ≥ log2(f(n))/log2(g(n))
+
+Now let’s try to prove, that the statement above (C2 ≥ log2(f(n))/log2(g(n)) is false. To prove it, we need to find only one pair of functions f(n) and g(n) for which log2f(n) = O(log2(g(n))) statement is false. 
+
+To do this, let’s take f(n)=n^2 and g(n) = n. In this case, f = O(g) because n^2 is upper bounded by C1*n for some constant C1. However, log2(f(n)) = 2log2(n) and log2(g(n)) = log2(n) in this case, and 2*log2(n) is not upper bounded by log2(n), so log2(f) is not O(log2(g)).
+
+2) f(n) = n^2
+g(n) = n
+
+1. f(n) = n^2 => O(n^2)
+log^2 f(n) = log2(n^2) = 2*log2(n)
+
+2. g(n) = n => O(n)
+log2 (g(n)) = log2(n) = 1*log2(n)
+
+3. log2 f(n) = O(2log2 (n)) = O(log2 (n))
